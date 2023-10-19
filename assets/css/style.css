@@ -1,0 +1,250 @@
+@import url(root.css);
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    /* list-style-type: none; */
+}
+.bg-nav{
+    background: linear-gradient(90deg, #3B2E58 0%, #8661C5 100%);
+    
+}
+.gar{
+    height: 772.43px;
+}
+.shedo{text-align: left;
+    /* background: var(--Purple, #8661C5); */
+    box-shadow: 3.7270500659942627px 3.7270500659942627px 16.771724700927734px 0px #000000B2;
+height: 470.03px;
+width: 570.79px;
+/* background-color: #8661C5; */
+}
+.position-absolute{
+    position: absolute;
+    top: 17%;
+    left: 15%;
+}
+.seea{margin-top: 70px;
+    margin-left: 27px;
+    color: #FAF9FD;
+}
+.btn1{margin-left: 33px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 14px 42px;
+    background-color: #E9E6F5;
+    color: #3B2E58; 
+    
+}
+.bg-sect{
+    background-color: #E9E6F5;
+}
+.mw-683{
+    max-width:683px;
+}
+.for{
+    color: #3B2E58;
+}
+.for1{
+    color: #2E2E2E;
+}
+.bg-seca{
+    background:#E9E6F5;
+    z-index: 2;
+}
+.position-zick{
+    position: absolute;
+    right: 0;
+    bottom: -50%;
+}
+.mw-779{
+    max-width: 779px;
+}
+.btn0{
+    background-color: #D59DFF;
+    border: 2px solid ;
+    border-radius: 5px;
+    padding:12px 42px;
+    border: none;
+    color: #FAF9FD;
+    
+}
+.mw-825{
+    max-width: 825px;
+
+}
+.bg-6th{
+    background: #E9E6F5;
+}
+.position-absolutes{
+    position: absolute;
+    top: -30%;
+    left: 0;
+    z-index: -1;
+
+}
+.position-absolute2{
+    position: absolute;
+    right: 30%;
+    bottom: 35%;
+}
+.shedo1{text-align: left;
+    /* background: var(--Purple, #8661C5); */
+    box-shadow: 3.7270500659942627px 3.7270500659942627px 16.771724700927734px 0px #000000B2;
+height: 234px;
+width: 479px;
+/* background-color: #8661C5; */
+}
+.bord{
+    border: 3px solid #8661C5;
+    height: 100%;
+    width: 100%;
+}
+.mw-442{
+    max-width: 442px;
+}
+.seer{
+    color: #3B2E58;
+
+}
+.bg-bang{
+    background: #D59DFF;
+}
+.mw-925{
+    max-width: 925px;
+}
+.Card{width: 100%;
+    height: 100%;
+    border: 3px solid white;
+    padding: 20px;
+    align-items: center;
+}
+.circle{
+    height: 30px;
+width: 30px;}
+.futt{
+    background:#FAF9FD;
+}
+.box2 {
+    padding: 16px;
+    border-radius: 6px;
+    border: 2px solid var(--Dark-Purple, #3B2E58);
+    background: var(--White, #FFF);
+    width: 100%;
+    height: 100%;
+
+}
+.card1 {
+    width: 576px;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    opacity: 0.7;
+    background: var(--Purple, #8661C5);
+    box-shadow: 3.72705px 3.72705px 16.77172px 0px rgba(0, 0, 0, 0.70);
+}
+
+.position-absolute1 {
+    position: absolute;
+    top: 29%;
+    left: 5%;
+}
+.bg-image1{
+    background-image: url(../image/joda.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    width: 414px;
+    height: 214px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    opacity: 0.7;
+    background: var(--Purple, #8661C5);
+    box-shadow: 2.51517px 2.51517px 11.31828px 0px rgba(0, 0, 0, 0.70);
+}
+/* .mw-278{
+    max-width: 278px;
+} */
+
+
+.position-absolute4 {
+    position: absolute;
+    top: 37%;
+    left: 10%;
+}
+.prev {
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: -4%;
+    bottom: 40%;
+
+}
+.mw-828{
+    max-width: 828px;
+}
+
+.next {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: -4%;
+    bottom: 40%;
+}
+
+.bottom-shadow{
+    height: 60px;
+    background-color:#FAF9FD;
+}
+@media (max-width:992px) {
+
+    label[for="menubar"] {
+        height: 25px;
+        width: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        z-index: 3;
+        cursor: pointer
+    }
+
+
+    label[for="menubar"]>span {
+        height: 4px;
+        width: 100%;
+        background-color: lightcoral;
+        border-radius: 3px;
+    }
+
+    ul.mobile-view {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        background-color: papayawhip;
+        transition: all 300ms linear;
+
+    }
+
+    .position-fixed {
+        position: fixed !important;
+        top: 0;
+        z-index: 25 !important;
+        background-color: #D2DA60;
+    }
+
+    input[type="checkbox"][id="menubar"]:checked+ul.mobile-view {
+        left: 0;
+    }
+}
