@@ -7,7 +7,7 @@
     <title>MFS </title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/root.css">
-    <link rel="shortcut icon" href="./assets/image/navus.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/image/veer.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7./jquery.js"></script>
@@ -19,38 +19,73 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-    <section class="bg-nav">
-        <nav class="py-3">
-            <div class="container">
+<body class="position-relative">
+    <!-- back to to -->
+    <a href="#"><img src="./assets/image/ull.png" alt="ull" id="button"></a>
+    <!-- preloder -->
+    <div class="loader_bg">
+        <div class="loader"><img src="./assets/image/veer.png" alt="veer"></div>
+    </div>
+    <!-- MSF page -->
+    <section class="min-height-852 d-flex flex-column">
+        <nav class="bg-nav min-height-80 d-flex align-items-center">
+            <div class="container custom-container1 d-flex align-items-center justify-content-between">
+                <div><img src="./assets/image/Group 1.png" alt="1"></div>
                 <label for="menubar">
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
                 <input type="checkbox" id="menubar" hidden>
-                <ul class="d-flex justify-content-center gap-5 mobile-view">
-                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Lorem Ipsum</a>
+                <ul class="d-flex justify-content-center gap-xl-5 gap-4 mobile-view mb-0">
+                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Lorem
+                            Ipsum</a>
                     </li>
-                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Founders Hub</a>
+                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Founders
+                            Hub</a>
                     </li>
-                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Benefits</a></li>
-                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Programs</a></li>
-                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Lorem Ipsum</a>
+                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Benefits</a>
                     </li>
-                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Lorem Ipsum</a>
+                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Programs</a>
+                    </li>
+                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Lorem
+                            Ipsum</a>
+                    </li>
+                    <li class="list-unstyled"><a href="#" class="text-white fs-18 fw-400 ff-segoe_UI">Lorem
+                            Ipsum</a>
                     </li>
                 </ul>
             </div>
         </nav>
-    </section>
-    <section class="bg-image1 min-vh-100">
-        <div class="card1 position-absolute1 d-flex align-items-center justify-content-center flex-column ">
-            <h2 class="text-white fs-76 fw-600 ff-segoe_UI">MICROSOFT <br> FOR STARTUP</h2>
-            <button class="fs-22 fw-600 ff-segoe_UI btn1">Start Now</button>
-        </div>
+        <div class="d-flex flex-xl-row flex-column-reverse flex-grow-1 container-fluid px-0">
+            <div class="col-xl-6 col-12 bg-image1 d-flex align-items-center justify-content-center hero-section-height">
+                <div class="hero-section-box d-flex justify-content-center align-items-center flex-column">
+                    <h1 class="fs-76 fw-600 ff-segoe_UI text-white text-center">MICROSOFT FOR STARTUP</h1>
+                    <button class="fs-22 fw-600 ff-segoe_UI btn1">Start Now</button>
 
+                </div>
+
+            </div>
+            <div class="col-xl-6 col-12 hero-section-height bg-image2"></div>
+        </div>
     </section>
+    <!-- <section>
+        <div class="container-fluid">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+    </section> -->
+    <!-- <section class="">
+        <div class="row mx-0">
+            <div class="col-12 col-xl-6 min-vh-100 px-0 order-1 order-xl-0">
+                <img src="./assets/image/joda.png" alt="joda">
+                <div class="card1 position-absolute1 d-flex align-items-center justify-content-center flex-column ">
+                    <h2 class="text-white fs-76 fw-600 ff-segoe_UI">MICROSOFT <br> FOR STARTUP</h2>
+                    <button class="fs-22 fw-600 ff-segoe_UI btn1">Start Now</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
     <section class="bg-sect py-5">
         <div class="container justify-content-center d-flex ">
@@ -76,7 +111,7 @@
     <section class="py-5 position-relative py-5">
         <div class="d-md-block d-none"><img class="position-zick" src="./assets/image/zick.png" alt="zick"></div>
         <div class="container">
-            <h4 class="fw-600 fs-36 ff-segoe_UI for text-center seer mb-5">MicroSpot - Whats New?</h4>
+            <h4 class="fw-600 fs-36 ff-segoe_UI for text-center seer mb-4">MicroSpot - Whats New?</h4>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <p class="fw-600 fs-22 ff-segoe_UI">Marketplace Summit // 22.6 @Herzelia</p>
@@ -155,7 +190,7 @@
                 </p>
                 <div class="card2 d-flex justify-content-center"><img class="w-100" src="./assets/image/first.png"
                         alt="first"></div>
-                <div class="d-flex justify-content-center mt-4"> <button class="btn0 fs-35 fw-600 ff-segoe_UI ">Apply to
+                <div class="d-flex justify-content-center mt-4"> <button class="btn0 fs-36 fw-600 ff-segoe_UI ">Apply to
                         Founders Hub</button></div>
             </div>
         </div>
@@ -178,80 +213,79 @@
                     our in-program startups. These exciting partner offers are tailored to the needs of startups today.
                 </p>
             </div>
-            <div class="d-flex">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Ai.png"
-                                alt="A"></div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Bi.png"
-                                alt="i"></div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Ci.png"
-                                alt="i"></div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Di.png"
-                                alt="i"></div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/EEE.png"
-                                alt="i">
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Ei.png"
-                                alt="i"></div>
+
+            <div class="row slider-responsive">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Ai.png"
+                            alt="A"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Bi.png"
+                            alt="i"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Ci.png"
+                            alt="i"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Di.png"
+                            alt="i"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/EEE.png"
+                            alt="i">
                     </div>
                 </div>
-            </div>
-            <div class="d-flex">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Gii.png"
-                                alt="i">
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Hii.png"
-                                alt="i">
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/See.png"
-                                alt="e">
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/mad.png"
-                                alt="mad">
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center"><img class="w-100" src="./assets/image/Fii.png"
-                                alt="Fii">
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-2">
-                        <div class="kota d-flex justify-content-center"><img class="w-100"
-                                src="./assets/image/angel.png" alt="angel"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Ei.png"
+                            alt="i"></div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Gii.png"
+                            alt="i">
                     </div>
                 </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/Hii.png"
+                            alt="i">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/See.png"
+                            alt="e">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center "><img class="w-100" src="./assets/image/mad.png"
+                            alt="mad">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center"><img class="w-100" src="./assets/image/Fii.png"
+                            alt="Fii">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <div class="kota d-flex justify-content-center"><img class="w-100" src="./assets/image/angel.png"
+                            alt="angel"></div>
+                </div>
             </div>
+
             <div class="d-flex gap-3 w-100 justify-content-center flex-wrap mt-5 mb-5">
-                <button class="btn0 fw-600 fs-36 ff-segoe_UI">Apply to FH program</button>
-                <button class="btn0 fw-600 fs-36 ff-segoe_UI">More informaTon <br> on benefits</button>
-                <button class="btn0 fw-600 fs-36 ff-segoe_UI">Learn more on <br>
-                    Azure credits</button>
+                <button class="btn0 fw-600 fs-36 ff-segoe_UI d-flex justify-content-center align-items-center">Apply to
+                    FH program</button>
+                <button class="btn0 fw-600 fs-36 ff-segoe_UI d-flex justify-content-center align-items-center">More
+                    informaTon <br> on benefits</button>
+                <button class="btn0 fw-600 fs-36 ff-segoe_UI d-flex justify-content-center align-items-center">Learn
+                    more on <br> Azure credits</button>
             </div>
         </div>
     </section>
     <section class="bg-color2 py-5">
         <div class="container position-relative">
             <div class="">
-                <h2 class="fs-35 fw-600 ff-segoe_UI clr text-center mb-3">‘Microsoft for Startups’ Programs</h2>
+                <h2 class="fs-35 fw-600 ff-segoe_UI clr text-center mb-5">‘Microsoft for Startups’ Programs</h2>
                 <div class="slider0">
                     <div class="px-2 mx-3 box2">
                         <div class="row justify-content-lg-between justify-content-center align-items-center">
@@ -538,29 +572,29 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 pt-4">
                     <div>
-                        <img class="w-100" src="./assets/image/lap.png" alt="lap">
+                        <img class="w-100 img-hover" src="./assets/image/lap.png" alt="lap">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 pt-4">
                     <div>
-                        <img class="w-100" src="./assets/image/keee.png" alt="kee">
+                        <img class="w-100 img-hover" src="./assets/image/keee.png" alt="kee">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 pt-4">
                     <div>
-                        <img class="w-100" src="./assets/image/bot.png" alt="bot">
+                        <img class="w-100 img-hover" src="./assets/image/bot.png" alt="bot">
                     </div>
                 </div>
 
 
                 <div class="col-12 col-md-6 col-lg-4 pt-4">
-                    <div><img class="w-100" src="./assets/image/one.png" alt="one"></div>
+                    <div><img class="w-100 img-hover" src="./assets/image/one.png" alt="one"></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 pt-4">
-                    <div><img class="w-100" src="./assets/image/two.png" alt="two"></div>
+                    <div><img class="w-100 img-hover" src="./assets/image/two.png" alt="two"></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 pt-4">
-                    <div><img class="w-100" src="./assets/image/three.png" alt="three"></div>
+                    <div><img class="w-100 img-hover" src="./assets/image/three.png" alt="three"></div>
                 </div>
             </div>
             <p class="fs-36 fw-600 ff-segoe_UI text-center for mt-5">Take an Active Part!</p>
@@ -592,7 +626,7 @@
                 <div class="col-12 col-lg-6">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <ul>
+                            <ul class="ps-0">
                                 <li class="fs-36 fw-600 list-unstyled ff-segoe_UI for1">Connect & Contact Us
                                 </li>
                                 <li class="list-unstyled"><a
@@ -607,7 +641,7 @@
                             </ul>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <ul>
+                            <ul class="ps-0">
                                 <li class="fs-36 fw-600 list-unstyled ff-segoe_UI for1">Support</li>
                                 <li class="list-unstyled"><a
                                         class="fw-400 fs-22 ff-segoe_UI for1 text-decoration-underline"
@@ -626,34 +660,34 @@
                 </div>
 
                 <div class="col-12 col-lg-6 d-flex justify-content-lg-end align-items-center gap-4">
-                    <div class="circle"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                    <a href="https://www.facebook.com/login/" target="_blank" class="circle"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M33 18C33 9.72 26.28 3 18 3C9.72 3 3 9.72 3 18C3 25.26 8.16 31.305 15 32.7V22.5H12V18H15V14.25C15 11.355 17.355 9 20.25 9H24V13.5H21C20.175 13.5 19.5 14.175 19.5 15V18H24V22.5H19.5V32.925C27.075 32.175 33 25.785 33 18Z"
                                 fill="black" />
                         </svg>
-                    </div>
-                    <div class="circle"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                    </a>
+                    <a href="https://www.instagram.com/accounts/login/" target="_blank" class="circle"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M23.3988 17.9988C23.3988 19.4309 22.8298 20.8044 21.8171 21.8171C20.8044 22.8298 19.4309 23.3988 17.9988 23.3988C16.5666 23.3988 15.1931 22.8298 14.1804 21.8171C13.1677 20.8044 12.5987 19.4309 12.5987 17.9988C12.5987 17.691 12.6311 17.3904 12.6869 17.0988H10.7987V24.2934C10.7987 24.7937 11.2037 25.1987 11.7041 25.1987H24.2952C24.535 25.1983 24.7648 25.1027 24.9342 24.9329C25.1036 24.7632 25.1988 24.5332 25.1987 24.2934V17.0988H23.3106C23.3664 17.3904 23.3988 17.691 23.3988 17.9988ZM17.9988 21.5988C18.4716 21.5986 18.9398 21.5054 19.3767 21.3243C19.8135 21.1432 20.2104 20.8779 20.5447 20.5434C20.879 20.209 21.1441 19.8119 21.325 19.375C21.5058 18.9381 21.5989 18.4698 21.5988 17.997C21.5986 17.5241 21.5054 17.0558 21.3243 16.619C21.1432 16.1822 20.8779 15.7853 20.5434 15.451C20.209 15.1167 19.8119 14.8516 19.375 14.6707C18.9381 14.4899 18.4698 14.3968 17.997 14.3969C17.0419 14.3972 16.1261 14.7768 15.451 15.4523C14.7759 16.1277 14.3967 17.0437 14.3969 17.9988C14.3972 18.9538 14.7768 19.8696 15.4523 20.5447C16.1277 21.2198 17.0437 21.599 17.9988 21.5988ZM22.3187 14.2188H24.4769C24.6203 14.2188 24.7579 14.1619 24.8594 14.0607C24.961 13.9595 25.0183 13.8221 25.0187 13.6787V11.5205C25.0187 11.3769 24.9617 11.239 24.8601 11.1374C24.7585 11.0358 24.6206 10.9787 24.4769 10.9787H22.3187C22.1751 10.9787 22.0372 11.0358 21.9356 11.1374C21.834 11.239 21.777 11.3769 21.777 11.5205V13.6787C21.7787 13.9757 22.0217 14.2188 22.3187 14.2188ZM17.9988 0.71875C13.4158 0.71875 9.02057 2.53932 5.77994 5.77994C2.53932 9.02057 0.71875 13.4158 0.71875 17.9988C0.71875 22.5817 2.53932 26.9769 5.77994 30.2176C9.02057 33.4582 13.4158 35.2788 17.9988 35.2788C20.268 35.2788 22.515 34.8318 24.6115 33.9634C26.708 33.095 28.613 31.8222 30.2176 30.2176C31.8222 28.613 33.095 26.708 33.9634 24.6115C34.8318 22.515 35.2788 20.268 35.2788 17.9988C35.2788 15.7295 34.8318 13.4825 33.9634 11.386C33.095 9.28947 31.8222 7.38454 30.2176 5.77994C28.613 4.17535 26.708 2.90251 24.6115 2.03411C22.515 1.16571 20.268 0.71875 17.9988 0.71875ZM26.9988 24.9989C26.9988 26.0987 26.0987 26.9988 24.9989 26.9988H10.9985C9.89875 26.9988 8.99875 26.0987 8.99875 24.9989V10.9985C8.99875 9.89875 9.89875 8.99875 10.9985 8.99875H24.9989C26.0987 8.99875 26.9988 9.89875 26.9988 10.9985V24.9989Z"
                                 fill="black" />
                         </svg>
-                    </div>
-                    <div class="circle"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" class="circle"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M20.8841 17.6982L16.8414 15.8118C16.4886 15.648 16.1988 15.8315 16.1988 16.2221V19.7754C16.1988 20.166 16.4886 20.3496 16.8414 20.1858L20.8824 18.2994C21.2369 18.1337 21.2369 17.8638 20.8841 17.6982ZM17.9988 0.71875C8.45515 0.71875 0.71875 8.45515 0.71875 17.9988C0.71875 27.5424 8.45515 35.2788 17.9988 35.2788C27.5424 35.2788 35.2788 27.5424 35.2788 17.9988C35.2788 8.45515 27.5424 0.71875 17.9988 0.71875ZM17.9988 25.0187C9.15355 25.0187 8.99875 24.2213 8.99875 17.9988C8.99875 11.7762 9.15355 10.9787 17.9988 10.9787C26.844 10.9787 26.9988 11.7762 26.9988 17.9988C26.9988 24.2213 26.844 25.0187 17.9988 25.0187Z"
                                 fill="black" />
                         </svg>
-                    </div>
-                    <div class="circle"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                    </a>
+                    <a href="https://twitter.com/home" target="_blank" class="circle"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M16 0.25C7.30234 0.25 0.25 7.30234 0.25 16C0.25 24.6977 7.30234 31.75 16 31.75C24.6977 31.75 31.75 24.6977 31.75 16C31.75 7.30234 24.6977 0.25 16 0.25ZM23.5691 12.1223C23.5797 12.2875 23.5797 12.4598 23.5797 12.6285C23.5797 17.7895 19.6492 23.7344 12.4668 23.7344C10.252 23.7344 8.19883 23.091 6.46914 21.9836C6.78555 22.0188 7.08789 22.0328 7.41133 22.0328C9.23945 22.0328 10.9199 21.4141 12.2594 20.3664C10.5437 20.3313 9.10234 19.2063 8.61016 17.6594C9.21133 17.7473 9.75273 17.7473 10.3715 17.5891C9.4881 17.4096 8.69409 16.9298 8.12435 16.2313C7.55462 15.5327 7.24429 14.6585 7.24609 13.757V13.7078C7.76289 13.9996 8.37109 14.1789 9.00742 14.2035C8.47249 13.847 8.0338 13.364 7.73023 12.7974C7.42667 12.2307 7.26762 11.5979 7.26719 10.9551C7.26719 10.2273 7.45703 9.56289 7.79805 8.98633C8.77856 10.1934 10.0021 11.1806 11.3891 11.8838C12.7762 12.587 14.2957 12.9905 15.8488 13.068C15.2969 10.4137 17.2797 8.26562 19.6633 8.26562C20.7883 8.26562 21.8008 8.73672 22.5145 9.49609C23.3969 9.33086 24.2406 9.00039 24.993 8.55742C24.7012 9.46094 24.0895 10.2238 23.2773 10.7055C24.0648 10.6211 24.8242 10.4031 25.5273 10.0973C24.9965 10.8777 24.332 11.5703 23.5691 12.1223Z"
                                 fill="black" />
                         </svg>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -670,6 +704,7 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
+        
         $('.slider0').slick({
             dots: false,
             infinite: true,
@@ -710,7 +745,89 @@
         });
 
     </script>
+
+    <script>
+        $('.slider-responsive').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            prevArrow: '.prev',
+            nextArrow: '.next',
+            responsive: [
+                {
+                    breakpoint: 9999,
+                    settings: "unslick"
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        dots: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+    </script>
     <script src="/demo.js"></script>
+    <script>
+        var butn = $("#button");
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                butn.addClass("show");
+            }
+            else {
+                butn.removeClass("show");
+            }
+        });
+        butn.on("click", function (e) {
+            e.preventDefault();
+            $("html,body").animate({ scrollTop:0}, "300");
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function () {
+        once: true,
+        $('.loader_bg').fadeToggle();
+      }, 1700);
+    </script>
 </body>
 
 </html>

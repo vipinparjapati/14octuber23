@@ -165,7 +165,11 @@
 }
 
 @media (max-width:768px) {
-   
+    /* .position-absolute1 {
+        position: absolute;
+        top: 97%;
+        left: 3%;
+    } */
 }
 
 @media (max-width:576px) {
@@ -183,12 +187,7 @@
     }
 
 
-    .bg-image1 {
-        background-image: url(../image/joda.png);
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+   
 }
 
 @media (max-width:400px) {
@@ -229,11 +228,12 @@
         --fs-76: 60px;
         --fs-96: 96px;
     }
+   
 }
 
 @media (max-width:576px) {
     :root {
-        --fs-36: 30px;
+        --fs-36: 25px;
         --fs-18: 18px;
         --fs-22: 18px;
         --fs-28: 24px;
@@ -242,4 +242,11 @@
         --fs-76: 50px;
         --fs-96: 96px;
     }
+}
+@media (max-width:1200px) {
+    /* .position-absolute1 {
+        position: absolute;
+        top: 127%;
+        left: 21%;
+    } */
 }
